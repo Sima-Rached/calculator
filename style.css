@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 150px;
+    flex-direction: column;
+}
+.wrapper{
+    max-width: 500px;
+  margin: 50px auto;
+  background: #222;
+  padding: 50px;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
+.result{
+    background: #000;
+  color: #0f0;
+  font-size: 2em;
+  text-align: right;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  min-height: 50px;
+}
+.calcul-block{
+    display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}

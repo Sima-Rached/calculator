@@ -1,0 +1,17 @@
+const nbrBtn=document.querySelector('.btn');
+nbrBtn.addEventListener("click",function(e){
+  content = e.target.textcontent;
+  switch(content){
+    case '1' : 
+    ................
+  }
+})
+
+🔴 Issues in your current code:
+1/document.querySelector('.btn') selects only the first element with class .btn. 
+You likely have multiple buttons (digits 0–9), so you need querySelectorAll.
+
+2/e.target.textcontent should be e.target.textContent (case-sensitive!).
+
+
+
